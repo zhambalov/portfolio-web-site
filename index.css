@@ -1,0 +1,24 @@
+*{
+  background-color: black;
+  overflow:hidden;
+  overflow-y:hidden; 
+  overflow-x:hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+strong{
+  font-weight: 400;
+}
+#page {
+  margin: 200px 200px;
+  padding: auto 50%;
+}
+
+#bio {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+}
