@@ -1,0 +1,20 @@
+*{
+    background-color: black;
+    overflow:hidden;
+    overflow-y:hidden; 
+    overflow-x:hidden;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+strong{
+    font-weight: 400;
+}
+
+#portfolio{
+    margin: 12% 12%;
+    padding: auto 50%;
+}
