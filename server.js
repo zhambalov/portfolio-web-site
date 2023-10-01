@@ -14,9 +14,5 @@ app.get('/', function (req, res) {
     res.render('index');
 });
 
-app.get('/about', function (req, res) {
-    res.render('about'); 
-  });
-
 const routes = require('./routes'); // Update the path accordingly
 app.use('/', routes);
