@@ -1,0 +1,196 @@
+/* 
+   File: index.css
+   Student: Aldar Zhambalov
+   StudentID: 301275745
+   Date: September 30, 2023
+*/
+
+
+/*  Basics  */
+
+*{
+  background-color: black;
+  overflow:hidden;
+  overflow-y:hidden; 
+  overflow-x:hidden;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+strong{
+  color: white;
+  font-weight: 400;
+}
+
+#page {
+  margin: 13% 12%;
+  padding: auto 50%;
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+p {
+  font-size: 0.8;
+}
+
+/*  About! */
+
+#page-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 4% 12%;
+  padding: auto 50%;
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+#about-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 24.5%;
+}
+
+
+/*  Skills!  */
+
+#page-skills {
+  margin: 1% 12%;
+  padding: auto 50%;
+  color: white;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+#page-skills li {
+  font-weight: 100;
+}
+
+
+/*  Portfolio  */
+
+#page-portfolio {
+  margin: 8% 12%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#portfolio-item {
+  margin: 0 1%;
+}
+
+#portfolio-item img{
+  border: 5px double grey;
+ margin: 0 10%;
+}
+
+
+/*  Hovers */
+
+#portfolio,
+#about,
+#contact,
+#skills,
+#resume,
+#home {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out; 
+}
+
+#portfolio:hover,
+#about:hover,
+#contact:hover,
+#skills:hover,
+#resume:hover,
+#home:hover { 
+  opacity: 0.7;
+}
+
+
+/*  Contact */
+
+#contact-contact {
+  margin: 2% 20%;
+}
+ #aboutme {
+  margin-left: 5%;
+  font-weight: 100;
+ }
+
+ #contact-form {
+  color: white;
+  margin: 6% 30%;
+  font-weight: 500;
+}
+
+#contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form label {
+  color: white;
+  font-weight: 300;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="tel"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 2% 0 5% 0;
+  border: none;
+  border-radius: 5px;
+}
+
+#contact-form input[type="submit"] {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 500;
+  border: none;
+  margin-top: 1em;
+}
+
+#my-links {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 0 40%;
+}
+
+#my-links img {
+  width: 2em;
+  margin-left: 3em;
+}
+
+ /*  Home Button  */
+
+#home {
+  color: white;
+  margin: 2% 2%;
+  font-size: 1.5em;
+}
+
+
+
+
+
