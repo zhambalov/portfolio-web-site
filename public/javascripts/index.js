@@ -24,6 +24,8 @@ document.getElementById("about").onclick = function () {
 document.getElementById("portfolio").style.cursor = "pointer";
 document.getElementById("contact").style.cursor = "pointer";
 document.getElementById("about").style.cursor = "pointer";
+document.getElementById("submit").style.cursor = "pointer";
+
 
 
 

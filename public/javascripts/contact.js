@@ -14,3 +14,7 @@ function submitForm(event) {
     const contactNumber = document.getElementById("contact-number").value;
     const email = document.getElementById("email").value;
 }
+
+// pointer
+
+document.getElementById("submit").style.cursor = "pointer";
